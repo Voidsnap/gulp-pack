@@ -36,16 +36,21 @@ You can change some settings in the **gulp-pack.json** file.
 
 ```json
 {
+  "title": "Page Title",
+  "author": "John Doe",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "keywords": "HTML,CSS,XML,JavaScript",
+  "lang": "en",
   "port": "4000",
   "dest": "build",
   "css": {
     "src": "src/css/*.css",
-    "dest": "build/css",
+    "dest": "/css",
     "bundle": "/bundle.css"
   },
   "js": {
     "src": "src/js/*.js",
-    "dest": "build/js",
+    "dest": "/js",
     "bundle": "/bundle.js"
   },
   "html": {

@@ -1,0 +1,17 @@
+html {
+  fs: 16px;
+  f: 'Roboto', sans-serif;
+  fw: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  bg: #e8e8e8;
+  w: 100%;
+  h: 100hv;
+  color: rgba(#000000, 0.8);
+}

@@ -1,0 +1,48 @@
+.responsive {
+  font-size: responsive 16px 36px;
+}
+
+/* colors */
+
+.bg--success {
+  bg: var(--success);
+  color: #fff;
+}
+.bg--info {
+  bg: var(--info);
+  color: #fff;
+}
+.bg--warning {
+  bg: var(--warning);
+  color: rgba(#000000, 0.9);
+}
+.bg--warning a {
+  color: rgba(#000000, 0.9);
+}
+.bg--danger {
+  bg: var(--danger);
+  color: #fff;
+}
+.bg--gray {
+  bg: rgba(#000000, 0.1);
+}
+
+.text--success {
+  color: var(--success);
+}
+.text--info {
+  color: var(--info);
+}
+.text--warning {
+  color: var(--warning);
+}
+.text--danger {
+  color: var(--danger);
+}
+
+.text--white {
+  color: #fff;
+}
+.text--black {
+  color: #000;
+}

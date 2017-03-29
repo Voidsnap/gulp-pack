@@ -1,0 +1,23 @@
+{
+  "name": "gulp-pack",
+  "version": "0.1.0",
+  "description": "A Gulp Task Runner",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp dev",
+    "dev:serve": "gulp server",
+    "serve": "gulp server"
+  },
+  "author": "Robin Ammann <ammann.ro@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^6.4.0",
+    "postcss-cssnext": "^2.10.0",
+    "rucksack-css": "^0.9.1"
+  }
+}

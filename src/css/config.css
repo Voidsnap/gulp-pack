@@ -1,0 +1,20 @@
+@alias {
+  fs: font-size;
+  fw: font-weight;
+  f: font-family;
+  bg: background;
+  h: height;
+  w: width;
+}
+
+:root {
+  --success: rgba(#19bb9d, 1);
+  --info: rgba(#3393e2, 1);
+  --warning: rgba(#e7eb49, 1);
+  --danger: rgba(#ee4646, 1);
+}
+
+/* Viewports */
+@custom-media --mobile (max-width: 600px);
+@custom-media --tablet (max-width: 900px);
+@custom-media --desktop (max-width: 1280px);

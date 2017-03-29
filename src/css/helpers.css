@@ -46,3 +46,46 @@
 .text--black {
   color: #000;
 }
+
+@media only screen and (max-width: 500px) {
+  .mobile--hide {
+    display: none;
+  }
+  .mobile--show {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .taplet--hide {
+    display: none;
+  }
+  .taplet--show {
+    display: block;
+  }
+}
+
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
+
+.hide {
+  display: none;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.border--radius {
+  border-radius: 4px;
+}

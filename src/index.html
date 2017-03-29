@@ -1,12 +1,131 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Gulp-pack</title>
-  <link rel="stylesheet" href="css/bundle.css">
-</head>
-<body>
-  <h1>Hello World</h1>
-  <script src="js/bundle.js"></script>
-</body>
-</html>
+<nav class="nav--top">
+  <div class="nav nav--container">
+    <a class="nav__logo" href="#">Gulp-Pack</a>
+    <div class="nav__space"></div>
+    <a class="taplet--hide active" href="#">Getting started</a>
+    <a class="taplet--hide" href="#">Components</a>
+    <a class="taplet--hide" href="#">CSS</a>
+    <a class="taplet--hide" href="#">Javasript</a>
+    <div class="menu taplet--show">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+<div class="nav--top--fix"></div>
+
+<div class="container">
+  <h1 class="center">Typography</h1>
+</div>
+<div class="row">
+  <div class="col-2 center">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+  </div>
+  <div class="col-8">
+    <p>Default text - <strong>strong text</strong> - <i>italic text</i> - <small>small text</small> - <a href="#">link text</a> - <span class="text--success">color text</span></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <p class="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+    <blockquote>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </blockquote>
+  </div>
+</div>
+
+<div class="container">
+  <h1 class="center">Grid</h1>
+</div>
+  <div class="row">
+    <div class="col-10 center bg--gray"><p>col-10</p></div>
+    <div class="col-1 center bg--gray"><p>col-1</p></div>
+    <div class="col-9 center bg--gray"><p>col-9</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-8 center bg--gray"><p>col-8</p></div>
+    <div class="col-3 center bg--gray"><p>col-3</p></div>
+    <div class="col-7 center bg--gray"><p>col-7</p></div>
+    <div class="col-4 center bg--gray"><p>col-4</p></div>
+    <div class="col-6 center bg--gray"><p>col-6</p></div>
+    <div class="col-5 center bg--gray"><p>col-5</p></div>
+    <div class="col-5 center bg--gray"><p>col-5</p></div>
+    <div class="col-6 center bg--gray"><p>col-6</p></div>
+    <div class="col-4 center bg--gray"><p>col-4</p></div>
+    <div class="col-7 center bg--gray"><p>col-7</p></div>
+    <div class="col-3 center bg--gray"><p>col-3</p></div>
+    <div class="col-8 center bg--gray"><p>col-8</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-9 center bg--gray"><p>col-9</p></div>
+    <div class="col-1 center bg--gray"><p>col-1</p></div>
+    <div class="col-2 center bg--success"><p>col-2</p></div>
+    <div class="col-2 center bg--info"><p>col-2</p></div>
+    <div class="col-2 center bg--warning"><p>col-2</p></div>
+    <div class="col-2 center bg--danger"><p>col-2</p></div>
+    <div class="col-2 center transparent"><p>col-2</p></div>
+  </div>
+
+  <div class="row">
+    <div class="col-5"></div>
+    <div class="col-5">
+      <xmp>
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-9"></div>
+</div>
+      </xmp>
+    </div>
+  </div>
+
+  <hr class="hr--dashed">
+  <h3 class="container center">No margin</h3>
+  <div class="row row--nospace">
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-5 center bg--gray"><p>col-5</p></div>
+    <div class="col-5 center bg--gray"><p>col-5</p></div>
+  </div>
+
+  <div class="row">
+    <div class="col-5"></div>
+    <div class="col-5">
+      <xmp>
+<div class="row row--nospace">
+  <div class="col-1"></div>
+  <div class="col-9"></div>
+</div>
+      </xmp>
+    </div>
+  </div>
+
+  <hr class="hr--dashed">
+  <h3 class="container center">Full width</h3>
+  <div class="row row--fullwidth">
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-2 center bg--gray"><p>col-2</p></div>
+    <div class="col-5 center bg--gray"><p>col-5</p></div>
+    <div class="col-5 center bg--gray"><p>col-5</p></div>
+  </div>
+
+  <div class="row">
+    <div class="col-5"></div>
+    <div class="col-5">
+      <xmp>
+<div class="row row--fullwidth">
+  <div class="col-1"></div>
+  <div class="col-9"></div>
+</div>
+      </xmp>
+    </div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

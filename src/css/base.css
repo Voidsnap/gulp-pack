@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Mono:500|Roboto:400,500,700');
+
 html {
   fs: 16px;
   f: 'Roboto', sans-serif;
@@ -10,8 +12,69 @@ html {
 }
 
 body {
-  bg: #e8e8e8;
+  bg: #f1f1f1;
   w: 100%;
   h: 100hv;
   color: rgba(#000000, 0.8);
+}
+
+a,
+a                 :visited {
+  text-decoration : none;
+  color           : #4533b6;
+}
+a                 :hover {
+  text-decoration : underline;
+}
+
+hr {
+  border          : none;
+  border-bottom   : solid 2px rgba(#000000, 0.2);
+  margin          : 10px 10px;
+}
+
+.hr--dashed {
+  border-bottom   : dashed 2px rgba(#000000, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  fw              : 400;
+}
+
+p {
+  padding         : 10px;
+}
+
+xmp {
+  f               : 'Fira Code', monospace;
+  bg              : rgba(#474747, 1);
+  color           : rgba(#ffffff, 1);
+  fw              : 500;
+  border-radius   : 4px;
+  fs              : 0.75rem;
+  padding         : 5px 30px;
+  box-shadow      : 0px 2px 3px rgba(#000000, 0.3) inset;
+}
+
+blockquote {
+  padding         : 5px 0px;
+  fs              : 1.2rem;
+  text-align      : center;
+  color           : rgba(#000000, 0.6);
+}
+blockquote        ::before,
+blockquote        ::after {
+  content         : 'format_quote';
+  fs              : 1.5rem;
+  f               : 'Material Icons';
+  color           : rgba(#000000, 0.35);
+}
+blockquote        ::after {
+  position        : relative;
+  top             : 1rem;
 }

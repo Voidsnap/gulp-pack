@@ -1,3 +1,5 @@
+[logo]: https://raw.githubusercontent.com/Voidsnap/gulp-pack/master/gulp-pack.svg
+
 # Gulp-pack
 
 Gulp-pack ist a task runner setup with PostCSS and es6 compiler.
